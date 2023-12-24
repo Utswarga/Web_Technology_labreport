@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+.text{
+    width: 50%;
+}
+.image{
+    display: flex;
+    width: 800px;
+}
+.boder{
+    background-color: rgb(210, 87, 87);
+    width: 300px;
+    border: 50px solid red;
+   
+    margin: 34px;
+}
+.container{
+    border: 3px solid 
+rgba(210, 98, 18, 0.244);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.item{
+    font-size: 28px;
+    font-weight: 100;
+
+    padding: 20px;
+
+    flex-basis: 0%;
+    flex-grow: 2;   
+}
+.picture{
+    display: contents;
+    width: fit-content;
+    height: fit-content;
+}
